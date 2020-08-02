@@ -1,0 +1,3 @@
+E:\Privat\Projekte\SPS_Training\Unity_SPS_Simulation\Unity_SPS_Schrittkette\Unity_SPS_Schrittkette\obj\Debug\netcoreapp3.1\Unity_SPS_Schrittkette.csprojAssemblyReference.cache
+E:\Privat\Projekte\SPS_Training\Unity_SPS_Simulation\Unity_SPS_Schrittkette\Unity_SPS_Schrittkette\obj\Debug\netcoreapp3.1\Unity_SPS_Schrittkette.AssemblyInfoInputs.cache
+E:\Privat\Projekte\SPS_Training\Unity_SPS_Simulation\Unity_SPS_Schrittkette\Unity_SPS_Schrittkette\obj\Debug\netcoreapp3.1\Unity_SPS_Schrittkette.AssemblyInfo.cs

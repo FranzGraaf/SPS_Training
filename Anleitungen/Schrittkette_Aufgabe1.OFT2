@@ -1,0 +1,3539 @@
+﻿header
+  Company = 'Omegon Fluid Technology'
+  FileDescriptor = 'CAD file'
+  FileVersion = 3
+  DateTimeCreated = 44030.5500964468
+  DateTimeChanged = 44030.5612243981
+  CreatedBy = 'franz.graaf@kabelmail.de'
+  ChangedBy = 'franz.graaf@kabelmail.de'
+  SystemFile = False
+end
+object TLOftDraft
+  Color = clWhite
+  Scale = scMM
+  GridVisible = False
+  GridSize = 4
+  SnapToGrid = True
+  SnapSize = 1
+  FrameVisible = True
+  PartNumberFramed = False
+  TextBoxVisible = False
+  object TLTitleBlock
+    ChangedState1 = ''
+    ChangedState2 = ''
+    ChangedState3 = ''
+    ChangedState4 = ''
+    ChangedState5 = ''
+    ChangedState6 = ''
+    ChangedState7 = ''
+    ChangedState8 = ''
+    ChangeString1 = ''
+    ChangeString2 = ''
+    ChangeString3 = ''
+    ChangeString4 = ''
+    ChangeString5 = ''
+    ChangeString6 = ''
+    ChangeString7 = ''
+    ChangeString8 = ''
+    ChangedAt1 = 0
+    ChangedAt2 = 0
+    ChangedAt3 = 0
+    ChangedAt4 = 0
+    ChangedAt5 = 0
+    ChangedAt6 = 0
+    ChangedAt7 = 0
+    ChangedAt8 = 0
+    ChangedBy1 = ''
+    ChangedBy2 = ''
+    ChangedBy3 = ''
+    ChangedBy4 = ''
+    ChangedBy5 = ''
+    ChangedBy6 = ''
+    ChangedBy7 = ''
+    ChangedBy8 = ''
+    EditedAt = 0
+    EditedBy = ''
+    CheckedAt = 0
+    CheckedBy = ''
+    NormDate = 0
+    NormName = ''
+    SpecialComment1 = ''
+    SpecialComment2 = ''
+    Origin = ''
+    ReplacementFor = ''
+    ReplacedBy = ''
+    Description = ''
+    DrawingNumber = ''#13#10'Grafcet'
+    SheetNumber = '1/1'
+    UseCompanyLogo = False
+    Company = ''
+  end
+  object TLOftDiagram
+    MMperSec = 6
+  end
+  object TLPaperSize
+    PaperFormat = A4
+    Orientation = poLandscape
+    Height = 210
+    Width = 297
+  end
+  object Drawing: TLOftLayer
+    Locked = False
+    Visible = True
+    object LGrafcetInitialStep1: TLGrafcetInitialStep
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Anfangsschritt'
+      ReferenceX = 127000000
+      ReferenceY = 66000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 127000000
+        Y = 66000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 76000000
+      end
+      object LRectangle37: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 127000000
+          Y = 66000000
+        end
+        object TLNode
+          X = 137000000
+          Y = 76000000
+        end
+      end
+      object LRectangle43: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clBlack
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 128000000
+          Y = 67000000
+        end
+        object TLNode
+          X = 136000000
+          Y = 75000000
+        end
+      end
+      object LGrafcetSerialNumberText13: TLGrafcetSerialNumberText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = '1'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 131129521
+          Y = 66900000
+        end
+        object TLNode
+          X = 132870479
+          Y = 70400438
+        end
+      end
+      object LGrafcetActionDisplay4: TLGrafcetActionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 131500000
+          Y = 73000000
+        end
+        object TLNode
+          X = 132500000
+          Y = 74000000
+        end
+      end
+      object LGrafcetActivationDisplay3: TLGrafcetActivationDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Symbol'
+        TextHeight = 4000000
+        Text = '*'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 124000000
+          Y = 68900000
+        end
+        object TLNode
+          X = 125632479
+          Y = 72900500
+        end
+      end
+      object LGrafcetConnector4: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 66000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 131000000
+          Y = 65000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 67000000
+        end
+        object LLinkPoint72: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 66000000
+          end
+        end
+      end
+      object LGrafcetConnector5: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 76000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 133000000
+          Y = 77000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 75000000
+        end
+        object LLinkPoint73: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 76000000
+          end
+        end
+      end
+      object LGrafcetConnector6: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 137000000
+        ReferenceY = 71000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 138000000
+          Y = 70000000
+        end
+        object TLNode
+          X = 136000000
+          Y = 72000000
+        end
+        object LLinkPoint74: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 137000000
+            Y = 71000000
+          end
+        end
+      end
+      object LGrafcetCommentText3: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 141000000
+          Y = 69000000
+        end
+        object TLNode
+          X = 141000000
+          Y = 69000000
+        end
+      end
+    end
+    object LGrafcetStep1: TLGrafcetStep
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Schritt'
+      ReferenceX = 127000000
+      ReferenceY = 88000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 127000000
+        Y = 88000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 98000000
+      end
+      object LRectangle35: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 127000000
+          Y = 88000000
+        end
+        object TLNode
+          X = 137000000
+          Y = 98000000
+        end
+      end
+      object LGrafcetSerialNumberText11: TLGrafcetSerialNumberText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = '2'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 131129521
+          Y = 88900000
+        end
+        object TLNode
+          X = 132870479
+          Y = 92400438
+        end
+      end
+      object LGrafcetActionDisplay2: TLGrafcetActionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 131500000
+          Y = 95000000
+        end
+        object TLNode
+          X = 132500000
+          Y = 96000000
+        end
+      end
+      object LGrafcetActivationDisplay1: TLGrafcetActivationDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Symbol'
+        TextHeight = 4000000
+        Text = '*'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 124000000
+          Y = 90900000
+        end
+        object TLNode
+          X = 125632479
+          Y = 94900500
+        end
+      end
+      object LGrafcetConnector1: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 88000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 131000000
+          Y = 87000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 89000000
+        end
+        object LLinkPoint44: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 88000000
+          end
+        end
+      end
+      object LGrafcetConnector2: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 98000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 133000000
+          Y = 99000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 97000000
+        end
+        object LLinkPoint45: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 98000000
+          end
+        end
+      end
+      object LGrafcetConnector3: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 137000000
+        ReferenceY = 93000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 138000000
+          Y = 92000000
+        end
+        object TLNode
+          X = 136000000
+          Y = 94000000
+        end
+        object LLinkPoint46: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 137000000
+            Y = 93000000
+          end
+        end
+      end
+      object LGrafcetCommentText2: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 141000000
+          Y = 93000000
+        end
+        object TLNode
+          X = 141000000
+          Y = 93000000
+        end
+      end
+    end
+    object LGrafcetStep2: TLGrafcetStep
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Schritt'
+      ReferenceX = 127000000
+      ReferenceY = 110000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 127000000
+        Y = 110000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 120000000
+      end
+      object LRectangle7: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 127000000
+          Y = 110000000
+        end
+        object TLNode
+          X = 137000000
+          Y = 120000000
+        end
+      end
+      object LGrafcetSerialNumberText1: TLGrafcetSerialNumberText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = '3'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 131129521
+          Y = 110900000
+        end
+        object TLNode
+          X = 132870479
+          Y = 114400438
+        end
+      end
+      object LGrafcetActionDisplay1: TLGrafcetActionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 131500000
+          Y = 117000000
+        end
+        object TLNode
+          X = 132500000
+          Y = 118000000
+        end
+      end
+      object LGrafcetActivationDisplay2: TLGrafcetActivationDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Symbol'
+        TextHeight = 4000000
+        Text = '*'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 124000000
+          Y = 112900000
+        end
+        object TLNode
+          X = 125632479
+          Y = 116900500
+        end
+      end
+      object LGrafcetConnector7: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 110000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 131000000
+          Y = 109000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 111000000
+        end
+        object LLinkPoint1: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 110000000
+          end
+        end
+      end
+      object LGrafcetConnector8: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 120000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 133000000
+          Y = 121000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 119000000
+        end
+        object LLinkPoint2: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 120000000
+          end
+        end
+      end
+      object LGrafcetConnector9: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 137000000
+        ReferenceY = 115000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 138000000
+          Y = 114000000
+        end
+        object TLNode
+          X = 136000000
+          Y = 116000000
+        end
+        object LLinkPoint3: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 137000000
+            Y = 115000000
+          end
+        end
+      end
+      object LGrafcetCommentText1: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 141000000
+          Y = 115000000
+        end
+        object TLNode
+          X = 141000000
+          Y = 115000000
+        end
+      end
+    end
+    object LGrafcetStep3: TLGrafcetStep
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Schritt'
+      ReferenceX = 127000000
+      ReferenceY = 132000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 127000000
+        Y = 132000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 142000000
+      end
+      object LRectangle8: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 127000000
+          Y = 132000000
+        end
+        object TLNode
+          X = 137000000
+          Y = 142000000
+        end
+      end
+      object LGrafcetSerialNumberText2: TLGrafcetSerialNumberText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = '4'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 131129521
+          Y = 132900000
+        end
+        object TLNode
+          X = 132870479
+          Y = 136400438
+        end
+      end
+      object LGrafcetActionDisplay3: TLGrafcetActionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 131500000
+          Y = 139000000
+        end
+        object TLNode
+          X = 132500000
+          Y = 140000000
+        end
+      end
+      object LGrafcetActivationDisplay4: TLGrafcetActivationDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Symbol'
+        TextHeight = 4000000
+        Text = '*'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 124000000
+          Y = 134900000
+        end
+        object TLNode
+          X = 125632479
+          Y = 138900500
+        end
+      end
+      object LGrafcetConnector10: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 132000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 131000000
+          Y = 131000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 133000000
+        end
+        object LLinkPoint4: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 132000000
+          end
+        end
+      end
+      object LGrafcetConnector11: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 142000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 133000000
+          Y = 143000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 141000000
+        end
+        object LLinkPoint5: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 142000000
+          end
+        end
+      end
+      object LGrafcetConnector12: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 137000000
+        ReferenceY = 137000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 138000000
+          Y = 136000000
+        end
+        object TLNode
+          X = 136000000
+          Y = 138000000
+        end
+        object LLinkPoint6: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 137000000
+            Y = 137000000
+          end
+        end
+      end
+      object LGrafcetCommentText4: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 141000000
+          Y = 137000000
+        end
+        object TLNode
+          X = 141000000
+          Y = 137000000
+        end
+      end
+    end
+    object LGrafcetStartTransition2: TLGrafcetStartTransition
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Quelltransition'
+      ReferenceX = 132000000
+      ReferenceY = 54000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      Orientation = orVertical
+      object TLNode
+        X = 127000000
+        Y = 52000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 60000000
+      end
+      object LLine113: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 132000000
+          Y = 54000000
+        end
+        object TLNode
+          X = 132000000
+          Y = 60000000
+        end
+      end
+      object LLine114: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 130000000
+          Y = 54000000
+        end
+        object TLNode
+          X = 134000000
+          Y = 54000000
+        end
+      end
+      object LGrafcetConditionText2: TLGrafcetConditionText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'Freigabe'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 136000000
+          Y = 52249781
+        end
+        object TLNode
+          X = 148356042
+          Y = 55750219
+        end
+      end
+      object LGrafcetNameText2: TLGrafcetNameText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 129000000
+          Y = 52000000
+        end
+        object TLNode
+          X = 129000000
+          Y = 52000000
+        end
+      end
+      object LGrafcetConnector13: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 60000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTO
+        object TLNode
+          X = 133000000
+          Y = 61000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 59000000
+        end
+        object LLinkPoint7: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 60000000
+          end
+        end
+      end
+      object LGrafcetCommentText5: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 152356042
+          Y = 54000000
+        end
+        object TLNode
+          X = 152356042
+          Y = 54000000
+        end
+      end
+    end
+    object LGrafcetTransition1: TLGrafcetTransition
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Transition'
+      ReferenceX = 132000000
+      ReferenceY = 82000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      Orientation = orVertical
+      object TLNode
+        X = 127000000
+        Y = 76000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 88000000
+      end
+      object LLine111: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 132000000
+          Y = 76000000
+        end
+        object TLNode
+          X = 132000000
+          Y = 88000000
+        end
+      end
+      object LLine112: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 130000000
+          Y = 82000000
+        end
+        object TLNode
+          X = 134000000
+          Y = 82000000
+        end
+      end
+      object LGrafcetConditionText1: TLGrafcetConditionText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'Knopf 1'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 136000000
+          Y = 80249781
+        end
+        object TLNode
+          X = 146795000
+          Y = 83750219
+        end
+      end
+      object LGrafcetNameText1: TLGrafcetNameText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 129000000
+          Y = 80000000
+        end
+        object TLNode
+          X = 129000000
+          Y = 80000000
+        end
+      end
+      object LGrafcetConnector14: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 88000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTO
+        object TLNode
+          X = 133000000
+          Y = 89000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 87000000
+        end
+        object LLinkPoint8: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 88000000
+          end
+        end
+      end
+      object LGrafcetConnector15: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 76000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTI
+        object TLNode
+          X = 131000000
+          Y = 75000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 77000000
+        end
+        object LLinkPoint9: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 76000000
+          end
+        end
+      end
+      object LDirectionDisplay1: TLDirectionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asLeft
+        ArrowHeadLength = 1000000
+        object TLNode
+          X = 130000000
+          Y = 88000000
+        end
+        object TLNode
+          X = 130000000
+          Y = 86000000
+        end
+      end
+      object LGrafcetCommentText6: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 150795000
+          Y = 82000000
+        end
+        object TLNode
+          X = 150795000
+          Y = 82000000
+        end
+      end
+    end
+    object LGrafcetTransition2: TLGrafcetTransition
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Transition'
+      ReferenceX = 132000000
+      ReferenceY = 104000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      Orientation = orVertical
+      object TLNode
+        X = 127000000
+        Y = 98000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 110000000
+      end
+      object LLine115: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 132000000
+          Y = 98000000
+        end
+        object TLNode
+          X = 132000000
+          Y = 110000000
+        end
+      end
+      object LLine116: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 130000000
+          Y = 104000000
+        end
+        object TLNode
+          X = 134000000
+          Y = 104000000
+        end
+      end
+      object LGrafcetConditionText3: TLGrafcetConditionText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'Knopf 2'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 136000000
+          Y = 102249781
+        end
+        object TLNode
+          X = 146795000
+          Y = 105750219
+        end
+      end
+      object LGrafcetNameText3: TLGrafcetNameText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 129000000
+          Y = 102000000
+        end
+        object TLNode
+          X = 129000000
+          Y = 102000000
+        end
+      end
+      object LGrafcetConnector16: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 110000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTO
+        object TLNode
+          X = 133000000
+          Y = 111000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 109000000
+        end
+        object LLinkPoint10: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 110000000
+          end
+        end
+      end
+      object LGrafcetConnector17: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 98000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTI
+        object TLNode
+          X = 131000000
+          Y = 97000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 99000000
+        end
+        object LLinkPoint11: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 98000000
+          end
+        end
+      end
+      object LDirectionDisplay2: TLDirectionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asLeft
+        ArrowHeadLength = 1000000
+        object TLNode
+          X = 130000000
+          Y = 110000000
+        end
+        object TLNode
+          X = 130000000
+          Y = 108000000
+        end
+      end
+      object LGrafcetCommentText7: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 150795000
+          Y = 104000000
+        end
+        object TLNode
+          X = 150795000
+          Y = 104000000
+        end
+      end
+    end
+    object LGrafcetTransition3: TLGrafcetTransition
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Transition'
+      ReferenceX = 132000000
+      ReferenceY = 126000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      Orientation = orVertical
+      object TLNode
+        X = 127000000
+        Y = 120000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 132000000
+      end
+      object LLine117: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 132000000
+          Y = 120000000
+        end
+        object TLNode
+          X = 132000000
+          Y = 132000000
+        end
+      end
+      object LLine118: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 130000000
+          Y = 126000000
+        end
+        object TLNode
+          X = 134000000
+          Y = 126000000
+        end
+      end
+      object LGrafcetConditionText4: TLGrafcetConditionText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'Knopf 3'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 136000000
+          Y = 124249781
+        end
+        object TLNode
+          X = 146795000
+          Y = 127750219
+        end
+      end
+      object LGrafcetNameText4: TLGrafcetNameText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 129000000
+          Y = 124000000
+        end
+        object TLNode
+          X = 129000000
+          Y = 124000000
+        end
+      end
+      object LGrafcetConnector18: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 132000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTO
+        object TLNode
+          X = 133000000
+          Y = 133000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 131000000
+        end
+        object LLinkPoint12: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 132000000
+          end
+        end
+      end
+      object LGrafcetConnector19: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 120000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTI
+        object TLNode
+          X = 131000000
+          Y = 119000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 121000000
+        end
+        object LLinkPoint13: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 120000000
+          end
+        end
+      end
+      object LDirectionDisplay3: TLDirectionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asLeft
+        ArrowHeadLength = 1000000
+        object TLNode
+          X = 130000000
+          Y = 132000000
+        end
+        object TLNode
+          X = 130000000
+          Y = 130000000
+        end
+      end
+      object LGrafcetCommentText8: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 150795000
+          Y = 126000000
+        end
+        object TLNode
+          X = 150795000
+          Y = 126000000
+        end
+      end
+    end
+    object LGrafcetTransition4: TLGrafcetTransition
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Transition'
+      ReferenceX = 132000000
+      ReferenceY = 148000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      Orientation = orVertical
+      object TLNode
+        X = 127000000
+        Y = 142000000
+      end
+      object TLNode
+        X = 137000000
+        Y = 154000000
+      end
+      object LLine119: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 132000000
+          Y = 142000000
+        end
+        object TLNode
+          X = 132000000
+          Y = 154000000
+        end
+      end
+      object LLine120: TLLine
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asNone
+        ArrowHeadLength = 2000000
+        object TLNode
+          X = 130000000
+          Y = 148000000
+        end
+        object TLNode
+          X = 134000000
+          Y = 148000000
+        end
+      end
+      object LGrafcetConditionText5: TLGrafcetConditionText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'Knopf 4'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 136000000
+          Y = 146249781
+        end
+        object TLNode
+          X = 146795000
+          Y = 149750219
+        end
+      end
+      object LGrafcetNameText5: TLGrafcetNameText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 129000000
+          Y = 146000000
+        end
+        object TLNode
+          X = 129000000
+          Y = 146000000
+        end
+      end
+      object LGrafcetConnector20: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 154000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTO
+        object TLNode
+          X = 133000000
+          Y = 155000000
+        end
+        object TLNode
+          X = 131000000
+          Y = 153000000
+        end
+        object LLinkPoint14: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 132000000
+            Y = 154000000
+          end
+        end
+      end
+      object LGrafcetConnector21: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 132000000
+        ReferenceY = 142000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciTI
+        object TLNode
+          X = 131000000
+          Y = 141000000
+        end
+        object TLNode
+          X = 133000000
+          Y = 143000000
+        end
+        object LLinkPoint15: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 132000000
+            Y = 142000000
+          end
+        end
+      end
+      object LDirectionDisplay4: TLDirectionDisplay
+        Locked = False
+        Visible = False
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        ArrowStyle = asLeft
+        ArrowHeadLength = 1000000
+        object TLNode
+          X = 130000000
+          Y = 154000000
+        end
+        object TLNode
+          X = 130000000
+          Y = 152000000
+        end
+      end
+      object LGrafcetCommentText9: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 150795000
+          Y = 148000000
+        end
+        object TLNode
+          X = 150795000
+          Y = 148000000
+        end
+      end
+    end
+    object LOFTLinkLine33: TLOFTLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clBlack
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 0
+      object TLRegisteredNode
+        X = 132000000
+        Y = 132000000
+        #LinkPoint = LLinkPoint4
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 132000000
+        #LinkPoint = LLinkPoint12
+      end
+    end
+    object LOFTLinkLine34: TLOFTLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clBlack
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 0
+      object TLRegisteredNode
+        X = 132000000
+        Y = 120000000
+        #LinkPoint = LLinkPoint2
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 120000000
+        #LinkPoint = LLinkPoint13
+      end
+    end
+    object LOFTLinkLine36: TLOFTLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clBlack
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 0
+      object TLRegisteredNode
+        X = 132000000
+        Y = 110000000
+        #LinkPoint = LLinkPoint1
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 110000000
+        #LinkPoint = LLinkPoint10
+      end
+    end
+    object LOFTLinkLine41: TLOFTLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clBlack
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 0
+      object TLRegisteredNode
+        X = 132000000
+        Y = 76000000
+        #LinkPoint = LLinkPoint73
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 76000000
+        #LinkPoint = LLinkPoint9
+      end
+    end
+    object LOFTLinkLine43: TLOFTLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clBlack
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 0
+      object TLRegisteredNode
+        X = 132000000
+        Y = 142000000
+        #LinkPoint = LLinkPoint5
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 142000000
+        #LinkPoint = LLinkPoint15
+      end
+    end
+    object LGrafcetLinkLine2: TLGrafcetLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clDefault
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 200000
+      object TLRegisteredNode
+        X = 132000000
+        Y = 154000000
+        #LinkPoint = LLinkPoint14
+      end
+      object TLLinkLineNode
+        X = 132000000
+        Y = 155000000
+      end
+      object TLLinkLineNode
+        X = 114000000
+        Y = 155000000
+      end
+      object TLLinkLineNode
+        X = 114000000
+        Y = 60000000
+      end
+      object TLLinkLineNode
+        X = 132000000
+        Y = 60000000
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 64000000
+      end
+    end
+    object LGrafcetLinkLine3: TLGrafcetLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clDefault
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 200000
+      object TLRegisteredNode
+        X = 132000000
+        Y = 60000000
+        #LinkPoint = LLinkPoint7
+      end
+      object TLLinkLineNode
+        X = 132000000
+        Y = 63000000
+      end
+      object TLLinkLineNode
+        X = 132000000
+        Y = 63000000
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 66000000
+        #LinkPoint = LLinkPoint72
+      end
+    end
+    object LGrafcetLinkLine4: TLGrafcetLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clDefault
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 200000
+      object TLRegisteredNode
+        X = 144000000
+        Y = 71000000
+        #LinkPoint = LLinkPoint31
+      end
+      object TLLinkLineNode
+        X = 140000000
+        Y = 71000000
+      end
+      object TLLinkLineNode
+        X = 140000000
+        Y = 71000000
+      end
+      object TLRegisteredNode
+        X = 137000000
+        Y = 71000000
+        #LinkPoint = LLinkPoint74
+      end
+    end
+    object LOFTLinkLine46: TLOFTLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clBlack
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 0
+      object TLRegisteredNode
+        X = 132000000
+        Y = 88000000
+        #LinkPoint = LLinkPoint44
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 88000000
+        #LinkPoint = LLinkPoint8
+      end
+    end
+    object LOFTLinkLine47: TLOFTLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clBlack
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 0
+      object TLRegisteredNode
+        X = 132000000
+        Y = 98000000
+        #LinkPoint = LLinkPoint45
+      end
+      object TLRegisteredNode
+        X = 132000000
+        Y = 98000000
+        #LinkPoint = LLinkPoint11
+      end
+    end
+    object LGrafcetLinkLine5: TLGrafcetLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clDefault
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 200000
+      object TLRegisteredNode
+        X = 144000000
+        Y = 93000000
+        #LinkPoint = LLinkPoint35
+      end
+      object TLLinkLineNode
+        X = 140500000
+        Y = 93000000
+      end
+      object TLLinkLineNode
+        X = 140500000
+        Y = 93000000
+      end
+      object TLRegisteredNode
+        X = 137000000
+        Y = 93000000
+        #LinkPoint = LLinkPoint46
+      end
+    end
+    object LGrafcetLinkLine6: TLGrafcetLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clDefault
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 200000
+      object TLRegisteredNode
+        X = 137000000
+        Y = 115000000
+        #LinkPoint = LLinkPoint3
+      end
+      object TLLinkLineNode
+        X = 140500000
+        Y = 115000000
+      end
+      object TLLinkLineNode
+        X = 140500000
+        Y = 115000000
+      end
+      object TLRegisteredNode
+        X = 144000000
+        Y = 115000000
+        #LinkPoint = LLinkPoint39
+      end
+    end
+    object LGrafcetLinkLine7: TLGrafcetLinkLine
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clDefault
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 200000
+      object TLRegisteredNode
+        X = 137000000
+        Y = 137000000
+        #LinkPoint = LLinkPoint6
+      end
+      object TLLinkLineNode
+        X = 140500000
+        Y = 137000000
+      end
+      object TLLinkLineNode
+        X = 140500000
+        Y = 137000000
+      end
+      object TLRegisteredNode
+        X = 144000000
+        Y = 137000000
+        #LinkPoint = LLinkPoint43
+      end
+    end
+    object LGrafcetContinuousAction1: TLGrafcetContinuousAction
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Kontinuierlich wirkende Aktion'
+      ReferenceX = 144000000
+      ReferenceY = 66000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 144000000
+        Y = 66000000
+      end
+      object TLNode
+        X = 174000000
+        Y = 76000000
+      end
+      object LRectangle12: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 144000000
+          Y = 66000000
+        end
+        object TLNode
+          X = 174000000
+          Y = 76000000
+        end
+      end
+      object LGrafcetActionText8: TLGrafcetActionText
+        Locked = False
+        Visible = True
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'A0.0'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 147000000
+          Y = 69249781
+        end
+        object TLNode
+          X = 153442604
+          Y = 72750219
+        end
+      end
+      object LGrafcetConnector34: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 174000000
+        ReferenceY = 71000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 175000000
+          Y = 70000000
+        end
+        object TLNode
+          X = 173000000
+          Y = 72000000
+        end
+        object LLinkPoint28: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 174000000
+            Y = 71000000
+          end
+        end
+      end
+      object LGrafcetConnector35: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 66000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 158000000
+          Y = 65000000
+        end
+        object TLNode
+          X = 160000000
+          Y = 67000000
+        end
+        object LLinkPoint29: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 159000000
+            Y = 66000000
+          end
+        end
+      end
+      object LGrafcetConnector36: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 76000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 160000000
+          Y = 77000000
+        end
+        object TLNode
+          X = 158000000
+          Y = 75000000
+        end
+        object LLinkPoint30: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 159000000
+            Y = 76000000
+          end
+        end
+      end
+      object LGrafcetConnector37: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 144000000
+        ReferenceY = 71000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 143000000
+          Y = 72000000
+        end
+        object TLNode
+          X = 145000000
+          Y = 70000000
+        end
+        object LLinkPoint31: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldLeft
+          object TLNode
+            X = 144000000
+            Y = 71000000
+          end
+        end
+      end
+      object LGrafcetCommentText14: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 178000000
+          Y = 71000000
+        end
+        object TLNode
+          X = 178000000
+          Y = 71000000
+        end
+      end
+    end
+    object LGrafcetContinuousAction2: TLGrafcetContinuousAction
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Kontinuierlich wirkende Aktion'
+      ReferenceX = 144000000
+      ReferenceY = 88000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 144000000
+        Y = 88000000
+      end
+      object TLNode
+        X = 174000000
+        Y = 98000000
+      end
+      object LRectangle13: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 144000000
+          Y = 88000000
+        end
+        object TLNode
+          X = 174000000
+          Y = 98000000
+        end
+      end
+      object LGrafcetActionText4: TLGrafcetActionText
+        Locked = False
+        Visible = True
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'A0.1'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 147000000
+          Y = 91249781
+        end
+        object TLNode
+          X = 153442604
+          Y = 94750219
+        end
+      end
+      object LGrafcetConnector38: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 174000000
+        ReferenceY = 93000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 175000000
+          Y = 92000000
+        end
+        object TLNode
+          X = 173000000
+          Y = 94000000
+        end
+        object LLinkPoint32: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 174000000
+            Y = 93000000
+          end
+        end
+      end
+      object LGrafcetConnector39: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 88000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 158000000
+          Y = 87000000
+        end
+        object TLNode
+          X = 160000000
+          Y = 89000000
+        end
+        object LLinkPoint33: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 159000000
+            Y = 88000000
+          end
+        end
+      end
+      object LGrafcetConnector40: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 98000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 160000000
+          Y = 99000000
+        end
+        object TLNode
+          X = 158000000
+          Y = 97000000
+        end
+        object LLinkPoint34: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 159000000
+            Y = 98000000
+          end
+        end
+      end
+      object LGrafcetConnector41: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 144000000
+        ReferenceY = 93000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 143000000
+          Y = 94000000
+        end
+        object TLNode
+          X = 145000000
+          Y = 92000000
+        end
+        object LLinkPoint35: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldLeft
+          object TLNode
+            X = 144000000
+            Y = 93000000
+          end
+        end
+      end
+      object LGrafcetCommentText15: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 178000000
+          Y = 93000000
+        end
+        object TLNode
+          X = 178000000
+          Y = 93000000
+        end
+      end
+    end
+    object LGrafcetContinuousAction3: TLGrafcetContinuousAction
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Kontinuierlich wirkende Aktion'
+      ReferenceX = 144000000
+      ReferenceY = 110000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 144000000
+        Y = 110000000
+      end
+      object TLNode
+        X = 174000000
+        Y = 120000000
+      end
+      object LRectangle14: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 144000000
+          Y = 110000000
+        end
+        object TLNode
+          X = 174000000
+          Y = 120000000
+        end
+      end
+      object LGrafcetActionText5: TLGrafcetActionText
+        Locked = False
+        Visible = True
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'A0.2'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 147000000
+          Y = 113249781
+        end
+        object TLNode
+          X = 153442604
+          Y = 116750219
+        end
+      end
+      object LGrafcetConnector42: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 174000000
+        ReferenceY = 115000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 175000000
+          Y = 114000000
+        end
+        object TLNode
+          X = 173000000
+          Y = 116000000
+        end
+        object LLinkPoint36: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 174000000
+            Y = 115000000
+          end
+        end
+      end
+      object LGrafcetConnector43: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 110000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 158000000
+          Y = 109000000
+        end
+        object TLNode
+          X = 160000000
+          Y = 111000000
+        end
+        object LLinkPoint37: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 159000000
+            Y = 110000000
+          end
+        end
+      end
+      object LGrafcetConnector44: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 120000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 160000000
+          Y = 121000000
+        end
+        object TLNode
+          X = 158000000
+          Y = 119000000
+        end
+        object LLinkPoint38: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 159000000
+            Y = 120000000
+          end
+        end
+      end
+      object LGrafcetConnector45: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 144000000
+        ReferenceY = 115000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 143000000
+          Y = 116000000
+        end
+        object TLNode
+          X = 145000000
+          Y = 114000000
+        end
+        object LLinkPoint39: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldLeft
+          object TLNode
+            X = 144000000
+            Y = 115000000
+          end
+        end
+      end
+      object LGrafcetCommentText16: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 178000000
+          Y = 115000000
+        end
+        object TLNode
+          X = 178000000
+          Y = 115000000
+        end
+      end
+    end
+    object LGrafcetContinuousAction4: TLGrafcetContinuousAction
+      Locked = False
+      Visible = True
+      BrushColor = clWhite
+      BrushStyle = bsClear
+      PenColor = clNone
+      PenMode = pmCopy
+      PenStyle = psSolid
+      PenWidth = 300000
+      Identification = 'Kontinuierlich wirkende Aktion'
+      ReferenceX = 144000000
+      ReferenceY = 132000000
+      ElementType = etGrafcet
+      PartNumber = ''
+      PartNumberFramed = False
+      PictureID = -1
+      SectionalDrawingID = -1
+      object TLNode
+        X = 144000000
+        Y = 132000000
+      end
+      object TLNode
+        X = 174000000
+        Y = 142000000
+      end
+      object LRectangle15: TLRectangle
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        object TLNode
+          X = 144000000
+          Y = 132000000
+        end
+        object TLNode
+          X = 174000000
+          Y = 142000000
+        end
+      end
+      object LGrafcetActionText6: TLGrafcetActionText
+        Locked = False
+        Visible = True
+        BrushColor = clBlack
+        BrushStyle = bsSolid
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = 'A0.4'
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 147000000
+          Y = 135249781
+        end
+        object TLNode
+          X = 153442604
+          Y = 138750219
+        end
+      end
+      object LGrafcetConnector46: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 174000000
+        ReferenceY = 137000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 175000000
+          Y = 136000000
+        end
+        object TLNode
+          X = 173000000
+          Y = 138000000
+        end
+        object LLinkPoint40: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldRight
+          object TLNode
+            X = 174000000
+            Y = 137000000
+          end
+        end
+      end
+      object LGrafcetConnector47: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 132000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSI
+        object TLNode
+          X = 158000000
+          Y = 131000000
+        end
+        object TLNode
+          X = 160000000
+          Y = 133000000
+        end
+        object LLinkPoint41: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldTop
+          object TLNode
+            X = 159000000
+            Y = 132000000
+          end
+        end
+      end
+      object LGrafcetConnector48: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 159000000
+        ReferenceY = 142000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSO
+        object TLNode
+          X = 160000000
+          Y = 143000000
+        end
+        object TLNode
+          X = 158000000
+          Y = 141000000
+        end
+        object LLinkPoint42: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldBottom
+          object TLNode
+            X = 159000000
+            Y = 142000000
+          end
+        end
+      end
+      object LGrafcetConnector49: TLGrafcetConnector
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clNone
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        Identification = ''
+        ReferenceX = 144000000
+        ReferenceY = 137000000
+        ElementType = etGrafcet
+        ConnectionText = ''
+        ConnectIdent = ciSA
+        object TLNode
+          X = 143000000
+          Y = 138000000
+        end
+        object TLNode
+          X = 145000000
+          Y = 136000000
+        end
+        object LLinkPoint43: TLLinkPoint
+          Locked = False
+          Visible = True
+          BrushColor = clNone
+          BrushStyle = bsClear
+          PenColor = clNone
+          PenMode = pmCopy
+          PenStyle = psSolid
+          PenWidth = 200000
+          LinkDirection = ldLeft
+          object TLNode
+            X = 144000000
+            Y = 137000000
+          end
+        end
+      end
+      object LGrafcetCommentText17: TLGrafcetCommentText
+        Locked = False
+        Visible = True
+        BrushColor = clNone
+        BrushStyle = bsClear
+        PenColor = clDefault
+        PenMode = pmCopy
+        PenStyle = psSolid
+        PenWidth = 200000
+        FontName = 'Arial'
+        TextHeight = 3500000
+        Text = ''
+        TextColor = clDefault
+        TextDirection = tdLeftRight
+        Framed = False
+        object TLNode
+          X = 178000000
+          Y = 137000000
+        end
+        object TLNode
+          X = 178000000
+          Y = 137000000
+        end
+      end
+    end
+  end
+end

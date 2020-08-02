@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Privat\\Projekte\\SPS_Training\\Unity_SPS_Simulation\\Unity_SPS_Schrittkette\\Unity_SPS_Schrittkette\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "E:\\Privat\\Projekte\\SPS_Training\\Unity_SPS_Simulation\\Unity_SPS_Schrittkette\\Unity_SPS_Schrittkette\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Privat\\Projekte\\SPS_Training\\Unity_SPS_Simulation\\Unity_SPS_Schrittkette\\Unity_SPS_Schrittkette\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "E:\\Privat\\Projekte\\SPS_Training\\Unity_SPS_Simulation\\Unity_SPS_Schrittkette\\Unity_SPS_Schrittkette\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\franz\\.nuget\\packages\\",
+        "outputPath": "E:\\Privat\\Projekte\\SPS_Training\\Unity_SPS_Simulation\\Unity_SPS_Schrittkette\\Unity_SPS_Schrittkette\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\franz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "S7netplus": {
+              "target": "Package",
+              "version": "(, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
