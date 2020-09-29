@@ -96,7 +96,7 @@ public class Fillsimulation : MonoBehaviour
 
 
 
-        void plc_r_w_func(object state)
+    void plc_r_w_func(object state)
     {
         while(true){
             if(VARIABLES_Fillsimulation.plc_control)

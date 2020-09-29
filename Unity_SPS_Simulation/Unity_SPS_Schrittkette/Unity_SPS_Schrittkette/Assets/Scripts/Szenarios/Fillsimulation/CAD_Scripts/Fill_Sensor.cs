@@ -27,12 +27,12 @@ public class Fill_Sensor : MonoBehaviour
         //Debug.Log(counter);
         if(counter>treshold){
             mr.material = activated;
-            VARIABLES_Conveyor.input[input_number] = true;
+            VARIABLES_Fillsimulation.input[input_number] = true;
         }
         else
         {
             mr.material = deactivated;
-            VARIABLES_Conveyor.input[input_number] = false;
+            VARIABLES_Fillsimulation.input[input_number] = false;
         }
     }
 

@@ -112,6 +112,10 @@ public class Conveyor : MonoBehaviour
                 {
                     for(int i = 0; i < VARIABLES_Conveyor.input_adresse.Length; i++){
                         try{
+                            //print("----------------");
+                            //print(VARIABLES_Conveyor.input_adresse[0]);
+                            print(VARIABLES_Conveyor.input[0]);
+                            //print("----------------");
                             plc.Write(VARIABLES_Conveyor.input_adresse[i], VARIABLES_Conveyor.input[i]);
                         } catch{
 

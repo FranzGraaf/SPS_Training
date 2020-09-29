@@ -11487,7 +11487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243281695bfb95a4aac04b6eac68d44f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_number: 0
+  input_number: 1
   treshold: 80
 --- !u!1 &806003942470340537
 GameObject:
@@ -12236,7 +12236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243281695bfb95a4aac04b6eac68d44f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_number: 0
+  input_number: 5
   treshold: 80
 --- !u!4 &3030694074245980639
 Transform:
@@ -12438,7 +12438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243281695bfb95a4aac04b6eac68d44f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_number: 0
+  input_number: 3
   treshold: 80
 --- !u!33 &3408580616175966903
 MeshFilter:
@@ -12564,7 +12564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243281695bfb95a4aac04b6eac68d44f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_number: 0
+  input_number: 6
   treshold: 80
 --- !u!23 &4201336002520085366
 MeshRenderer:
@@ -13920,7 +13920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243281695bfb95a4aac04b6eac68d44f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_number: 0
+  input_number: 4
   treshold: 50
 --- !u!33 &8219470668252839229
 MeshFilter:
@@ -14141,7 +14141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243281695bfb95a4aac04b6eac68d44f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_number: 0
+  input_number: 2
   treshold: 80
 --- !u!33 &8883403667784466518
 MeshFilter:
